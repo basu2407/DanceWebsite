@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+#logo{
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    /* filter: invert(1); */
+}
+#navbar{
+    height: 52px;
+    background-color: #8f8e8e;
+    font-family: 'EB Garamond', serif;
+    padding: 13px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: rgb(255, 255, 255);  
+}
+.container{
+    min-height: 76vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+#contact h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 12px 0;
+
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    outline: none;
+    font-size: 16px;
+    width: 30%;
+    padding: 13px;
+    margin: 6px;
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 14px;
+}
+#footer{
+    background-color: rgb(139, 139, 139);
+    height: 20px;
+    color: black;
+    text-align: center;
+}
+.btn{
+    padding: 6px 20px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(141, 138, 138);
+    cursor: pointer;
+    margin: 9px;
+    outline: none;
+}
